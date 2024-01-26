@@ -11,4 +11,4 @@ v=int(input('введите количество пациентов'))
 cursor.execute("""INSERT INTO SGL_ (Diagn,Patients) VALUES(?,?)""", (k,v))
 conn.commit()
 
-print(cursor.fetchall())
+
